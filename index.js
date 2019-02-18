@@ -7,5 +7,4 @@ const testData = fs.createReadStream('./data/train.csv')
   .on('data', (data) => results.push(data))
   .on('end', () => {
     console.log('----->', results)
-  });
-
+});
